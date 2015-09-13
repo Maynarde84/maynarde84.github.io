@@ -1,51 +1,140 @@
-/** {
-  outline: 1px solid red !important;
-}*/
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -box-sizing: border-box;
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+	color: #FFF;
 }
 
-body {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background: black;
+.mainTitle {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin: 0 0 10px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.map {
+    float: right;
+    height: 100%;
+    width: 83%;
+}
+
+.list {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    width: 17%;
+    height: 100%;
+    float: right;
+    overflow-y: scroll;
+}
+
+.title {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin: 0 0 5px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.popupBox {
+    padding: 1em;
+    line-height: 1.35;
+    overflow: hidden;
+    white-space: nowrap;
+	color:#000;
+}
+
+.popupBoxTitle {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.ratingSite {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 0 15px 0;
 }
 
 input {
-  background: grey;
-  font-size: 18px;
+    width: 80%;
+    margin: auto;
 }
 
-form {
-  display: inline-block;
+.list ul {
+    padding: 0 0 0 10px;
 }
 
-.centered {
-  text-align: center;
+.list li {
+    margin: 1em 0 0 0;
 }
 
-#pizzaSize {
-  font-weight: 800;
+.list li span {
+    cursor: pointer;
 }
 
-.mover {
-  position: fixed;
-  width: 256px;
-  z-index: -1;
+/* Smartphones (portrait and landscape) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */;
 }
 
-.randomPizzaContainer {
-  float: left;
-  display: flex;
+/* Smartphones (landscape) */
+@media only screen
+and (min-width : 321px) {
+/* Styles */;
 }
 
-.randomPizzaContainer:after {
-  content: "";
-  display: table;
-  clear:both;
+/* Smartphones (portrait) */
+@media only screen
+and (max-width : 320px) {
+/* Styles */;
 }
 
- .container {
-  background-color: rgba(240, 60, 60, 0.8);
+/* iPads (portrait and landscape) */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */;
+}
+
+/* iPads (landscape) */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */;
+}
+
+/* iPads (portrait) */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */;
+}
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */;
+}
+
+/* Large screens */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */;
+}
+
+/* iPhone 4 */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */;
 }
