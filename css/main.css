@@ -12,6 +12,31 @@ h1 {
   position: relative;
 }
 
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 .navbar {
 	margin-bottom: 0px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.col-md-3 {
+	z-index: 1;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-md-6 {
+	z-index: 2;
 }

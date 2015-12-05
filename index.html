@@ -24,15 +24,17 @@
     <![endif]-->
   </head>
   <body>
-    <div class="row">
-      <div class="logo">
-        <img src="http://dummyimage.com/630x100/ff0000/fff.png&text=Starcraft+Logo+(630+x+100)" /><br />
-		    <img src="http://dummyimage.com/580x60/b00000/fff.png&text=Overwatch+Logo+(580+x+60)" />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="logo">
+          <img src="http://dummyimage.com/630x100/ff0000/fff.png&text=Starcraft+Logo+(630+x+100)" /><br />
+		      <img src="http://dummyimage.com/580x60/b00000/fff.png&text=Overwatch+Logo+(580+x+60)" />
+        </div>
       </div>
     </div>
     
     <nav class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -72,30 +74,32 @@
       </div>
     </nav>
 	
-    <div class="row">
-      <div class="col-md-3">
-		<img src="img/left_side.png" />
-	  </div>
+    <div class="container-fluid">
+      <div class="row">
+         <div class="col-md-3">
+            <div class="pull-left">
+               <img style="float: left;" src="img/left_side.png" />
+            </div>
+	       </div>
     
-      <div class="col-md-6">
-		<div class="row">
-			<h1>Section Title</h1>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<iframe width="620" height="400" src="https://www.youtube.com/embed/fnvMe0rWI2I?list=RDfnvMe0rWI2I" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="col-md-4">
-				<img src="http://dummyimage.com/300x400/ff8400/000000.png&text=Video+Playlist+(300+x+400)" />
-			</div>
-		</div>
+        <div class="col-md-6">
+		      <div class="row">
+			       <h1>Section Title</h1>
+		      </div>
+		      <div class="row">
+			       <div class="col-md-12">
+				        <iframe width="830" height="470" src="https://www.youtube.com/embed/fnvMe0rWI2I?list=RDfnvMe0rWI2I" frameborder="0" allowfullscreen="1"></iframe>
+			       </div>
+		      </div>
+        </div>
+    
+        <div class="col-md-3">
+					<div clas="pull-right">
+		      	<img style="float: right;" src="img/right_side.png" />
+					</div>
+	      </div>
       </div>
-    
-      <div class="col-md-3">
-		<img src="img/right_side.png" />
-	  </div>
     </div>
-
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
